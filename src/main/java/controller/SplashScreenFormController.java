@@ -58,17 +58,17 @@ public class SplashScreenFormController {
             @Override
             public void handle(ActionEvent actionEvent) {
 
-                /*try {
-                    Parent parent = FXMLLoader.load(this.getClass().getResource("/view/SplashScreenForm.fxml"));
+                try {
+                    Parent parent = FXMLLoader.load(this.getClass().getResource("/view/MainForm.fxml"));
                     Scene scene = new Scene(parent);
                     Stage stage = new Stage();
                     stage.setScene(scene);
-                    stage.show();q
+                    stage.show();
                     stage.centerOnScreen();
                     lblLoading.getScene().getWindow().hide();
                 } catch (IOException e) {
                     throw new RuntimeException(e);
-                }*/
+                }
 
             }
         });
