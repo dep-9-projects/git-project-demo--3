@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="379.0" prefWidth="398.0" style="-fx-background-color: #FAD19D;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SplashScreenFormController">
+   <children>
+      <Label fx:id="lblText" alignment="CENTER" layoutX="54.0" layoutY="31.0" text="GIT-PROJECT-3" textFill="#c62845" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="DejaVu Serif Bold" size="33.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="57.0" fitWidth="248.0" layoutX="75.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="75.0" AnchorPane.rightAnchor="75.0">
+         <image>
+            <Image url="@../image/logoijse4.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="pgbContainer" arcHeight="5.0" arcWidth="5.0" fill="#fad19d" height="11.0" layoutX="14.0" layoutY="354.0" stroke="#fad19d" strokeType="INSIDE" width="398.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Rectangle fx:id="pgbLoader" arcHeight="5.0" arcWidth="5.0" fill="#17fc02" height="11.0" layoutX="27.0" layoutY="328.0" stroke="#a2fa9d" strokeType="INSIDE" width="16.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" />
+      <Label alignment="CENTER" layoutX="121.0" layoutY="155.0" prefHeight="13.0" prefWidth="193.0" text="Copyright © 2022 Dep-9. All Rights Reserved." AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="94.0" fitWidth="115.0" layoutX="152.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/load.gif" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblLoading" alignment="CENTER" layoutX="162.0" layoutY="302.0" text="Loading..." AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="DejaVu Sans Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
