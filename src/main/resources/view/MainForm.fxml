@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #d2ab72;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainFormController">
+   <children>
+      <AnchorPane layoutY="88.0" prefHeight="313.0" prefWidth="600.0" style="-fx-background-color: #aae2aa;" stylesheets="@../css/mainForm.css">
+         <children>
+            <FlowPane alignment="CENTER" hgap="54.0" layoutX="61.0" layoutY="44.0" prefHeight="204.0" prefWidth="478.0" vgap="46.0" AnchorPane.leftAnchor="61.0" AnchorPane.rightAnchor="60.60000000000002">
+               <children>
+                  <JFXButton fx:id="btnPage1" onAction="#btnPage1SetOnAction" prefHeight="70.0" prefWidth="106.0" styleClass="btn" text="PAGE-1" />
+                  <JFXButton fx:id="btnPage2" onAction="#btnPage2SetOnAction" prefHeight="68.0" prefWidth="108.0" styleClass="btn" text="PAGE-2" />
+                  <JFXButton fx:id="btnPage3" onAction="#btnPage3SetOnAction" prefHeight="68.0" prefWidth="103.0" styleClass="btn" text="PAGE-3" />
+                  <JFXButton fx:id="btnPane4" onAction="#btnPage4SetOnAction" prefHeight="70.0" prefWidth="111.0" styleClass="btn" text="PAGE-4" />
+               </children>
+            </FlowPane>
+         </children></AnchorPane>
+      <Label alignment="CENTER" layoutX="164.0" layoutY="14.0" text="GIT-Project-Demo -3" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="DejaVu Sans Mono Bold" size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

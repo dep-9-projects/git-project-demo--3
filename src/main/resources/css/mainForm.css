@@ -1,0 +1,16 @@
+.btn{
+    -fx-background-color: #c83838;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-width: 5;
+}
+
+.btn:hover,.btn:focused{
+    -fx-background-color: orange;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-font-size: 15;
+}
