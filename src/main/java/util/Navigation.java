@@ -33,8 +33,7 @@ public class Navigation {
                 stage.setTitle("PAGE 4");
                 break;
         }
-        FXMLLoader fxmlLoader = new FXMLLoader(resource);
-        AnchorPane container =fxmlLoader.load();
+        AnchorPane container = FXMLLoader.load(resource);
         Scene scene = new Scene(container);
         stage.setScene(scene);
         stage.centerOnScreen();
