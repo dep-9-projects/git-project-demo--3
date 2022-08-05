@@ -63,7 +63,7 @@ public class SplashScreenFormController {
                     Scene scene = new Scene(parent);
                     Stage stage = new Stage();
                     stage.setScene(scene);
-                    stage.show();
+                    stage.show();q
                     stage.centerOnScreen();
                     lblLoading.getScene().getWindow().hide();
                 } catch (IOException e) {
